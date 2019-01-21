@@ -1,0 +1,15 @@
+logging:
+  level:
+    root: INFO
+  path: D:\logs
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{20} - %msg%n'
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://59.60.10.229:3306/spring_boot_test?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false
+    username:
+    password:
+
+server:
+  port: 8090
