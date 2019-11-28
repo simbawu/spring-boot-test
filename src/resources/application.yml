@@ -7,9 +7,9 @@ logging:
 spring:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://59.60.10.229:3306/spring_boot_test?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false
-    username:
-    password:
+    url: jdbc:mysql://db4free.net:3306/simba_test_sb?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false
+    username: test_dev
+    password: simbatest
 
 server:
   port: 8090
