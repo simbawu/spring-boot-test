@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "vos_area_view")
+//@Table(name = "vos_area_view")
 public class VosAreaView {
 	@Column(name = "companyid")
 	private String companyId;
