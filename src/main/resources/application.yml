@@ -6,7 +6,7 @@ logging:
     console: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{20} - %msg%n'
 spring:
   datasource:
-    driverClassName: com.mysql.jdbc.Driver
+    driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://db4free.net:3306/simba_test_sb?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false
     username: test_dev
     password: simbatest

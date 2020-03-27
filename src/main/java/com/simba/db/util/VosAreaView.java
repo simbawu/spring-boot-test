@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
+//@Entity
 //@Table(name = "vos_area_view")
 public class VosAreaView {
 	@Column(name = "companyid")
